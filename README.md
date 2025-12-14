@@ -8,9 +8,11 @@ This project consists of a server and a client, both of which must be run in ord
     ./mvnw exec:java@server
 ### Connect to the client from the command line:
     ./mvnw exec:java@client
-  The server does not save the game when terminated. The world. all characters, items and states are reset when the server is restarted.
+  The server does not save the game when terminated. The world, characters, items and states are reset when the server is restarted.
 
 ## Playing the game!
+
+STAG is an engine built to run an adventure game taking place in a fantasy setting. The player interacts with the world by typing commands into the command line and receiving responses back. Each player in the game starts off with 3 health points and this can be checked at any time by using the "health" command.
 
 ## Commands
 
